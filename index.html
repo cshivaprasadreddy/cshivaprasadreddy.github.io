@@ -4,12 +4,51 @@
   <script>
     window.onload = function() {
       setTimeout(function() {
-        window.location.href = "/resume.html";
+        window.location.href = ".html";
       }, 3000); // Redirect after 3 seconds (adjust the delay as needed)
     };
   </script>
 </head>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url("https://wallpaperaccess.com/full/3850768.jpg");
+      background-size: cover;
+      background-position: center;
+      filter: brightness(70%); /* Adjust the brightness value to make the image duller */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
 <body>
-  <h1>Welcome</h1>
+  <h1>Welcome to my page </h1>
+  <style>
+    @keyframes rainbow {
+        0% { color: red; }
+        14% { color: orange; }
+        28% { color: yellow; }
+        42% { color: green; }
+        57% { color: blue; }
+        71% { color: indigo; }
+        85% { color: violet; }
+        100% { color: red; }
+    }
+
+    .rainbow-text {
+        animation: rainbow 6s linear infinite;
+    }
+</style>
 </body>
 </html>
